@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.poly</groupId>
-    <artifactId>Du_An_Tot_Nghiep_F5</artifactId>
+    <artifactId>Du_An_Tot_Nghiep_F6</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Du_An_Tot_Nghiep_F5</name>
     <description>Du_An_Tot_Nghiep_F5</description>
