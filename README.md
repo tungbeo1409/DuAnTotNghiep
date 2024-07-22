@@ -4,7 +4,7 @@ Xưởng dự án bán Áo F6
 
 Cập nhật liên tục 
 
-Thêm người edit gửi tên username cho Mạnh 
+Thêm người edit gửi tên username cho Tùng 
 
 Click vào sử dụng git để sử dụng
 
