@@ -6,11 +6,55 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>F6</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Thay đổi font chữ */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Canh giữa nội dung trên trang */
+            align-items: center; /* Canh giữa theo chiều dọc */
+            height: 100vh; /* Chiều cao toàn bộ viewport */
+            background-color: #f0f0f0; /* Màu nền trang */
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+            display: flex; /* Sắp xếp các phần tử theo hàng */
+            gap: 10px; /* Khoảng cách giữa các ô */
+            flex-wrap: wrap; /* Cho phép xuống dòng nếu không đủ chỗ */
+            justify-content: center; /* Canh giữa các phần tử trong hàng */
+        }
+
+        li {
+            margin: 0; /* Xóa margin mặc định */
+        }
+
+        a {
+            display: block; /* Để <a> hiển thị như khối */
+            width: 150px;
+            height: 150px;
+            border: 1px solid black; /* Thêm border và điều chỉnh độ dày */
+            border-radius: 25px; /* Bo góc */
+            text-decoration: none; /* Loại bỏ gạch ngang */
+            color: #000000; /* Màu chữ */
+            font-size: 20px; /* Kích thước chữ mặc định */
+            text-align: center; /* Canh giữa chữ */
+            line-height: 150px; /* Canh giữa chữ theo chiều dọc */
+            transition: transform 0.3s ease, background-color 0.3s ease; /* Thêm hiệu ứng chuyển động */
+        }
+
+        a:hover {
+            transform: scale(1.1); /* Tăng kích thước khi hover */
+            background-color: lightcyan; /* Thay đổi màu nền khi hover */
+        }
+    </style>
 </head>
 <body>
-<ul style="font-size: 50px;" class="container">
+<ul class="container">
     <li>
-        <a href="/admin" style="color: darkcyan">Admin</a>
+        <a href="/admin" style="background: aquamarine">Admin</a>
     </li>
     <li>
         <a href="/product">Product</a>
@@ -22,7 +66,9 @@
         <a href="/address">Address</a>
     </li>
     <li>
-        <a href="/addData" style="font-size: 20px;color: darkgreen">Chưa có dữ liệu thì click vào đây để thêm dữ liệu vào Database nhá <3 <br>(Có thể dùng để reser Data cũng được hehe)</a>
+        <a href="/addData" style="font-size: 16px; color: darkgreen; line-height: 2.4;">
+            Thêm Dữ liệu vào Database ( có thể reset về dữ liệu ban đầu)
+        </a>
     </li>
 </ul>
 </body>

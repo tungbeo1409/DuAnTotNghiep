@@ -27,7 +27,7 @@ public class MainController {
     @GetMapping("/addData")
     public String createData(){
         addData();
-        return "user/home";
+        return "redirect:/";
     }
 
 
