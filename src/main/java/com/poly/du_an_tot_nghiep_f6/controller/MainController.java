@@ -18,14 +18,10 @@ public class MainController {
     public String index() {
         return "user/home";
     }
-    @GetMapping("/admin11")
-    public String home() {
-        return "admin/index";
-    }
 
     @GetMapping("/admin")
     public String admin() {
-        return "admin/home";
+        return "admin/index";
     }
 
     @GetMapping("/addData")
