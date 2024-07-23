@@ -21,7 +21,7 @@ public class MainController {
 
     @GetMapping("/admin")
     public String admin() {
-        return "admin/home";
+        return "admin/index";
     }
 
     @GetMapping("/addData")
